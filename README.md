@@ -4,7 +4,7 @@
 In [our work](https://arxiv.org/abs/2401.06766), we explore the impact of prompt template choice on the In-Context Learning performance of Large Language Models in various prediction and demonstration selection methods. As a first step towards mitigating this issue we
 propose Template Ensembles.
 
-This repository contains the official code for our paper and the results of all our experiments. 
+This repository contains the official code for our paper and the [results](./plots_and_tables) of all our experiments. 
 
 ![Example performance of two templates for the same set of demonstrations](./teaser.png)
 
@@ -25,15 +25,15 @@ pip install -r requirements.txt
 
 # Evaluation
 
-In order to run experiments with LLaMA and LLaMA 2, you need to access weights of the corresponding model on the HuggingFace Hub model page (e.g. for [LLaMA 2 7B](https://huggingface.co/meta-llama/Llama-2-7b-hf))
+In order to run experiments with LLaMA and LLaMA 2, you need to access weights of the corresponding model on the Hugging Face Hub model page (e.g. for [LLaMA 2 7B](https://huggingface.co/meta-llama/Llama-2-7b-hf))
 
-Note that you may need to change `--eval_batch_size` depending on a particular model and your hardware.
+Note that you may need to change `--eval_batch_size` depending on the model and your hardware.
 
-You may need to use more than 1 GPU for some models. In this case, you may also want to set `--device_map balanced_low_0` (see [HuggingFace documentation](https://huggingface.co/docs/accelerate/usage_guides/big_modeling) for details)
+You may need to use more than 1 GPU for some models. In this case, you may also want to set `--device_map balanced_low_0` (see [Accelerate documentation](https://huggingface.co/docs/accelerate/usage_guides/big_modeling) for details)
 
 ## Baseline results
 
-To get the baseline results (0-shot or few-shot with Random selection method and Direct prediction method), run the following command:
+To get the baseline results (0-shot or few-shot with the Random selection method and the Direct prediction method), run the following command:
 
 ```bash
 python selection_methods.py \
@@ -83,7 +83,8 @@ python selection_methods.py \
 ```
 
 ## Template transfer
-In order to evaluate template transfer between different setups, you need to run evaluation of the desired methods varying the `--template_seed` argument. See the example for different prediction methods below:
+In order to evaluate template transfer between different setups, you need to run experiments for the desired methods varying the `--template_seed` argument. 
+See the example for different prediction methods below:
 
 ```bash
 python selection_methods.py \
@@ -100,7 +101,6 @@ python selection_methods.py \
   --eval_batch_size 16
 ```
 # Template ensembles
-
 You can get results for template ensembles with the following command:
 
 ```
@@ -119,8 +119,8 @@ templates_ensemble.py \
 # Results analysis
 
 We provide the results for all our experiments and the code to reproduce figures and tables from our paper in the `plots_and_tables` folder.
-
-In case you run your own experiments, the results will be stored locally at `{save_dir}/all_runs.csv` or you can download them from your Weights & Biases project.
+In case you run your own experiments, the results will be stored locally at `{save_dir}/all_runs.csv`.
+Alternatively, you can download them from your Weights & Biases project.
 
 # Citation
 If you make use of our work, please cite our paper:
