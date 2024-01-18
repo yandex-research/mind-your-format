@@ -1,0 +1,38 @@
+{
+    "59": [
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"target: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"emotion: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"It was {}.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"label: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"All in all {}.\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"output: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"output: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"A {} piece.\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"target: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"A {} one.\", \"sep\": \" \"}"
+    ],
+    "13": [
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"emotion: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"label: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"label: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"emotion: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"A {} piece.\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"target: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"{}\", \"out_verbalizer\": \"label: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"It was {}.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"A {} one.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"sentiment: {}\", \"sep\": \"\\n\"}"
+    ],
+    "21": [
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"A {} one.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"It was {}.\", \"sep\": \" \"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"All in all {}.\", \"sep\": \" \"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"sentiment: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"{}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"A {} one.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"{}\", \"out_verbalizer\": \"output: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"{}\", \"out_verbalizer\": \"target: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"target: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"{}\", \"out_verbalizer\": \"label: {}\", \"sep\": \"\\n\"}"
+    ]
+}

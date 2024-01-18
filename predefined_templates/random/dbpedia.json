@@ -1,0 +1,38 @@
+{
+    "59": [
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"target: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"Topic: {}.\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"It is about {}.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"label: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"target: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"Subject: {}.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"{}\", \"sep\": \" \"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"Topic: {}.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"Subject: {}.\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"{}\", \"out_verbalizer\": \"output: {}\", \"sep\": \" \"}"
+    ],
+    "13": [
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"Topic: {}.\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"label: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"label: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"Topic: {}.\", \"sep\": \" \"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"output: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"Topic: {}.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"{}\", \"out_verbalizer\": \"label: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"It is about {}.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"This is about {}.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"input: {}\", \"out_verbalizer\": \"Subject: {}.\", \"sep\": \"\\n\"}"
+    ],
+    "21": [
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"This is about {}.\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"It is about {}.\", \"sep\": \" \"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"{}\", \"sep\": \" \"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"sentence: {}\", \"out_verbalizer\": \"This is about {}.\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"{}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"{}\", \"out_verbalizer\": \"It is about {}.\", \"sep\": \" \"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"{}\", \"out_verbalizer\": \"target: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \" \", \"inp_verbalizer\": \"text: {}\", \"out_verbalizer\": \"target: {}\", \"sep\": \" \"}",
+        "{\"big_sep\": \"\\n\", \"inp_verbalizer\": \"{}\", \"out_verbalizer\": \"label: {}\", \"sep\": \"\\n\"}",
+        "{\"big_sep\": \"\\n\\n\", \"inp_verbalizer\": \"{}\", \"out_verbalizer\": \"label: {}\", \"sep\": \" \"}"
+    ]
+}
