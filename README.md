@@ -6,6 +6,7 @@ propose Template Ensembles.
 
 This repository contains the official code for our paper and the results of all our experiments. 
 
+![Example performance of two templates for the same set of demonstrations](./teaser.png)
 
 # Installation
 
